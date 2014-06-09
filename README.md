@@ -6,13 +6,13 @@ Please go to these projects and update code for future reference.
 
 # What's New in isvalid-express?
 
-**isvalid-express.js** has been rewritten from the ground up with basis in unit tests in order to acheive greater stability and better developer confidence in code. It is still beta, but is build to be completely API compliant with *express-schema-validator*. So it should drop easily in to existing code.
+**isvalid-express.js** has been rewritten from the ground up with basis in unit tests in order to achieve greater stability and better developer confidence in code. It is still beta, but is build to be completely API compliant with *express-schema-validator*. So it should drop easily in to existing code.
 
 ## A Note on Errors
 
 There is - however - some changes to the way errors are handled. Some errors are now thrown whereas others are passed to the callback (or sent to the express.js error handler if used through express.)
 
-Structural errors - or errors intruduced doing programming - is now thrown. Errors like invalid parameters or incorrectly formatted schemas are structural errors - and are supposed to be caught doing development - and therefore they are now thrown in order to ensure they do not go unnoticed.
+Structural errors - or errors introduced doing programming - is now thrown. Errors like invalid parameters or incorrectly formatted schemas are structural errors - and are supposed to be caught doing development - and therefore they are now thrown in order to ensure they do not go unnoticed.
 
 Validation errors are as before passed to the callback - or to express if used through that. These errors are because of bad user input - eg. invalid data - and is therefore up to you - as the programmer - to handle.
 
