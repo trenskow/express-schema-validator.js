@@ -1,6 +1,6 @@
 {
 	"name": "express-schema-validator",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "Validates route inputs in express.js using schemas. DEPRECATED.",
 	"main": "./validator.js",
 	"keywords": [
