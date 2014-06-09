@@ -1,13 +1,16 @@
 {
 	"name": "express-schema-validator",
-	"version": "0.0.4",
-	"description": "Validates route inputs in express.js using schemas.",
+	"version": "0.0.5",
+	"description": "Validates route inputs in express.js using schemas. DEPRECATED.",
 	"main": "./validator.js",
 	"keywords": [
 		"express.js",
 		"schemas",
 		"validation"
 	],
+	"dependencies": {
+		"isvalid-express": ">= 0.0.2"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/trenskow/express-schema-validator.js.git"
